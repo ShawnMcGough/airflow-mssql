@@ -10,3 +10,6 @@ docker build --build-arg IMAGE=airflow -t mcgough/airflow:latest .
 docker build --build-arg IMAGE=airflow-worker -t mcgough/airflow-worker:latest .
 docker build --build-arg IMAGE=airflow-scheduler -t mcgough/airflow-scheduler:latest .
 ```
+
+# Sample DAG
+I could not find much in the way of a working example DAG to test mssql so I also created this quick [example DAG](https://github.com/ShawnMcGough/airflow-mssql/blob/master/mssql_example_dag.py) to test connectivity. 
