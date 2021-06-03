@@ -1,7 +1,7 @@
 
 # set up some variables
 ARG IMAGE=airflow
-ARG TAG=2.0.1
+ARG TAG=2.1.0
 ARG STAGEPATH=/tmp/mcgough
 
 # builder stage
