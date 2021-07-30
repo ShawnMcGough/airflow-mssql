@@ -1,8 +1,8 @@
 
 # set up some variables
 ARG IMAGE=airflow
-ARG TAG=2.1.0
-ARG STAGEPATH=/tmp/mcgough
+ARG TAG=2.1.2
+ARG STAGEPATH=/tmp/airflow
 
 # builder stage
 FROM bitnami/$IMAGE:$TAG as builder
