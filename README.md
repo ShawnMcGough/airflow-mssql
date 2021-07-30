@@ -6,9 +6,9 @@ Bitnami's images do not include Microsoft drivers or pyodbc. You can read more a
 
 # How to use
 ```bash
-docker build --build-arg IMAGE=airflow -t mcgough/airflow:latest .
-docker build --build-arg IMAGE=airflow-worker -t mcgough/airflow-worker:latest .
-docker build --build-arg IMAGE=airflow-scheduler -t mcgough/airflow-scheduler:latest .
+docker build --build-arg IMAGE=airflow -t airflow:latest .
+docker build --build-arg IMAGE=airflow-worker -t airflow-worker:latest .
+docker build --build-arg IMAGE=airflow-scheduler -t airflow-scheduler:latest .
 ```
 
 # Sample DAG
